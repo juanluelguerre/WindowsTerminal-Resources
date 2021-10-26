@@ -51,4 +51,6 @@ This is a simple report to install and configure WSL on Windows Terminal aslgo w
   - sudo apt update && sudo apt install telegram-desktop
 
 # WSL (NO WSLG)
-  - Install Windows Server X: https://sourceforge.net/projects/vcxsrv/
+  - Install Windows Server X: https://sourceforge.net/projects/vcxsrv/ Or download and unzip it using 7-Zip.
+  - Run xalunch.exe and configure it.
+  - Save  previous configuration as config.xlaunch to use in `Start-WinLinux.cmd` script 
