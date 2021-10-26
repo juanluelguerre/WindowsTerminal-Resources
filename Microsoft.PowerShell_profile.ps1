@@ -3,7 +3,7 @@
 #
 # https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal
 #
-oh-my-posh --init --shell pwsh --config  ~/"OneDrive - Deloitte (O365D)"/juanlu.omp.json | Invoke-Expression
+oh-my-posh --init --shell pwsh --config  ~/"OneDrive - xxx"/juanlu.omp.json | Invoke-Expression
 
 Import-Module -Name Terminal-Icons
 
