@@ -19,14 +19,14 @@ This is a simple report to install and configure WSL on Windows Terminal aslgo w
   ○ Install:
     * Chocolatey (https://chocolatey.org/) : 
       - Without Admin right: https://docs.chocolatey.org/en-us/choco/setup#non-administrative-install 
-	- choco install oh-my-posh
-	- Fonts: https://www.nerdfonts.com/ --> downloads -->  "Caskaydia Cove Nerd Font"	
-	- Powershell: C:\Users\jguerrerominero\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
-	- Icons:
-	  - Install-Module -Name Terminal-Icons -Repository PSGallery
-	  - Import-Module -Name Terminal-Icons
-	- Linux (Ubuntu / bash):
-	. Mac: N/A
+	 - choco install oh-my-posh
+	 - Fonts: https://www.nerdfonts.com/ --> downloads -->  "Caskaydia Cove Nerd Font"	
+	 - Powershell: C:\Users\jguerrerominero\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+	 - Icons:
+	    - Install-Module -Name Terminal-Icons -Repository PSGallery
+	    - Import-Module -Name Terminal-Icons
+	 - Linux (Ubuntu / bash):
+	 . Mac: N/A
 		
 ## AZ Predictor
   * Find-Module Az.Tools.Predictor -AllowPrerelease
