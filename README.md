@@ -13,16 +13,19 @@ This is a simple report with resources to configure Windows Terminal with **Oh m
      - `choco install oh-my-posh`. **Note**: Without admin right follow this instructions: https://docs.chocolatey.org/en-us/choco/setup#non-administrative-install
      - Fonts: Navigate tu "https://www.nerdfonts.com/" and downloads "Caskaydia Cove Nerd Font"	
      - Copy the file "Microsoft.PowerShell_profile.ps1" in your path: "C:\Users\<USER_NAME>\Documents\PowerShell\"
-     - Tun below sentences in your PS terminar to install icons:
+     - Run below sentences in your PS terminal to install icons:
         - `Install-Module -Name Terminal-Icons -Repository PSGallery`
         - `Import-Module -Name Terminal-Icons`	
 	
    * Update Windows Terminal settings:
-     - Select settings / PowerShell / Apperance and for the "Font Face" choose font "Caskaydia Cove Nerd Font" (the previous donwnloaded). 
-     - **Important**: the current "juanlu.omp.json" is working with the previous font. So update this file if you choose whatever other font !
+     - Select settings / PowerShell / Apperance and for the "Font Face", choose font "Caskaydia Cove Nerd Font" (the previous one donwnloaded). 
+     - **Important**: the current "juanlu.omp.json" is working with the previous font. So update this file if you consider use another one !
      - Update background image like this:![image](https://user-images.githubusercontent.com/5904157/188324064-13cef42a-7109-4a37-901e-a77b9a10560e.png)   
-		
-## AZ Predictor
+
+## Preditor
+  <No completed yet>
+
+### AZ Predictor
   * Find-Module Az.Tools.Predictor -AllowPrerelease
   * Install-Module -Name Az.Tools.Predictor -RequiredVersion 0.4.0 -Scope CurrentUser
 
