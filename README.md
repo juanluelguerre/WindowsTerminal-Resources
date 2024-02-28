@@ -25,6 +25,7 @@ This is a simple report with resources to configure Windows Terminal with **Oh m
 ## Preditor
   <No completed yet>
 
+
 ### AZ Predictor
   * Find-Module Az.Tools.Predictor -AllowPrerelease
   * Install-Module -Name Az.Tools.Predictor -RequiredVersion 0.4.0 -Scope CurrentUser
@@ -43,8 +44,17 @@ After complete the previous steps your terminal for Powershell shoud be like thi
 
 
 # On Mac
-   Not implemented yet !
 
+* https://ohmyposh.dev/docs/installation/macos.
+	  
+  1. `eval "$(oh-my-posh init zsh -c '/Users/juanlu/OneDrive/juanlu.omp.json')"`
+  2. Create/edit .zshrc: `nano ~/.zshrc including below sentente and save it:
+   ``` 
+   if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
+      eval "$(oh-my-posh init zsh)"
+   fi	  
+   ```
+  3. Run `oh-my-posh font install` and select the font "Caskaydia Cove Nerd Font". 
 
 
 # Running native Linux Graphical Applications under WSL (WSLG)
